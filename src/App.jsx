@@ -6,7 +6,7 @@ import { ethers } from "ethers";
 const App = () => {
   
   const [currentAccount, setCurrentAccount] = useState("");
-  const contractAddress = "0xA658ABE797164F3D2989699f980db6847D86a121";
+  const contractAddress = "0x286e42AF89072433f372d0E1Caf1a19C6aA20634";
   const contractABI = abi.abi;
   const [waveCount,setWaveCount] = useState(0);
   const [allWaves, setAllWaves] = useState([]);
